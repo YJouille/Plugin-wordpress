@@ -86,8 +86,11 @@ $table_prefix = 'wp_';
  *
  * @link https://fr.wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+// Enable Debug logging to the /wp-content/debug.log file
+define( 'WP_DEBUG_LOG', true );
 
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_DISPLAY', true );
 /* C’est tout, ne touchez pas à ce qui suit ! Bonne publication. */
 
 /** Chemin absolu vers le dossier de WordPress. */
